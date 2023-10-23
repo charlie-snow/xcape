@@ -1,0 +1,138 @@
+BODY {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	scrollbar-arrow-color : Black;
+	scrollbar-face-color : #E6E6FA;
+	scrollbar-track-color : white;
+	scrollbar-3dlight-color : #dcc4df;
+	scrollbar-darkshadow-color : #c4a4d0;
+	scrollbar-highlight-color : #dcc4df;
+	scrollbar-shadow-color :#dcc4df;
+}
+
+.title {
+	font-size : 14px;
+	font-weight : bold;
+}
+.sub-title {
+	font-size : 13px;
+	font-weight : bold;
+}
+.blue {
+	font-size : 12px;
+	font-weight : bold;
+	color : #759EB2;
+}
+.small {
+	font-size : 11px;
+}
+.highlight {
+	font-size : 11px;
+	font-weight : bold;
+}
+
+table.browse{
+	background-color : #ACD2E4;
+}
+table.browse td{
+	background-color : #ACD2E4;
+}
+table {
+	background-color : #759EB2;
+}
+table td{
+	font-size : 11px;
+	background-color : #ffffff;
+}
+tr.header td{
+	font-weight : bold;
+	color : #ffffff;
+	background-color : #759EB2;
+}
+tr.dark td{
+	color : #ffffff;
+	background-color : #759EB2;
+}
+tr.ligth td{
+	color : #ffffff;
+	background-color : #BACFD9;
+}
+tr.dark_period td{
+	color : #000000;
+	background-color : #B9CEDA;
+}
+tr.supplement td{
+	color : #000000;
+	background-color : #d0f0dd;
+}
+tr.not_generated td{
+	color : #000000;
+	background-color : white;
+}
+td.login {
+	font-weight : bold;
+	color : #ffffff;
+	background-color : #759EB2;
+}
+td.login_sides {
+	background-color : #3E4246;
+}
+tr.active td{
+	color : #ffffff;
+	background-color : #ffab00;
+}
+tr.inactive td{
+	color : #ffffff;
+	background-color : #ffab00;
+}
+tr.stop_sale td{
+	color : #ffffff;
+	background-color : #ff3300;
+}
+tr.finished td{
+	color : #ffffff;
+	background-color : #66cc66;
+}
+tr.offer td{
+	color : #ffffff;
+	background-color : #ffab00;
+}
+td.active {
+	background-color : green;
+}
+td.inactive {
+	background-color : red;
+}
+tr.inactive_room td{
+	color : grey;
+}
+
+/* print --------------------------------------- */
+
+tr.dark_print td{
+	
+	background-color : #d2d3ff;
+}
+tr.ligth_print td{
+	color : black;
+	background-color : #BACFD9;
+}
+tr.stop_sale_print td{
+	font-weight : bold;
+}
+tr.supplement_print td{
+	color : black;
+	font-style : italic;
+}
+tr.offer_print td{
+	color : black;
+	font-weight : bold;
+}
+
+/* old style--------------------------------------------------------------------*/
+
+.h2blue {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #000066; font-weight: bold; text-decoration: none}
+.h3orange {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FF6600; text-decoration: none}
+.h3Lgrey {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #999999}
+.hA3blue {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #0000CC}
+.p4orange { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #FF6600; text-decoration: none }
+.p4black {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; color: #000000}

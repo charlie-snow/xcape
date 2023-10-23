@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "file:/D:/Proyectos/webapps/dtd/web-jsptaglibrary_1_2.dtd">
+<!-- "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd"  -->
+<!-- Fichero descriptor de la librería -->
+
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name>bd</short-name>
+  <display-name>
+    Librería para mostrar la creación de etiquetas
+  </display-name>
+
+<tag>
+    <name>prueba</name>
+    <tag-class>paquete.conexionTag</tag-class>
+    
+  </tag>
+
+
+</taglib>

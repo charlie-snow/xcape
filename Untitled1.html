@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>xcaping</title>
+	<link rel="STYLESHEET" type="text/css" href="Xtyle.css">
+
+	<link rel="STYLESHEET" type="text/css" href="links.css">
+</head>
+
+<body>
+
+
+<script>
+
+function next_period() {
+	document.getElementById("next").value="1";
+}
+
+function send() {
+	document.getElementById("modifyPeriod").submit();
+}
+
+function changePU(room_id) {
+	document.getElementById('room_unit_changed'+room_id).value = '1';
+	if (document.getElementById('room_unit'+room_id).value == '1') {
+		document.getElementById('room_unit'+room_id).value = '0';
+		document.getElementById('pu_'+room_id).innerHTML = '<strong>P</strong>';
+	} else {
+		document.getElementById('room_unit'+room_id).value = '1';
+		document.getElementById('pu_'+room_id).innerHTML = '<strong>U</strong>';
+	}
+}
+
+function changeSSpercentage() {
+	alert (document.getElementById('short_stay_percentage').value);
+	if (document.getElementById('short_stay_percentage').value = '1') {
+		document.getElementById('short_stay_percentage').value = '0';
+		document.getElementById('ss').innerHTML = '<strong>&euro;</strong>';
+	} else {
+		document.getElementById('short_stay_percentage').value = '1';
+		document.getElementById('ss').innerHTML = '<strong>%</strong>';
+	}
+}
+
+function changeDiscPercentage(discount_id) {
+	if (document.getElementById('discount_percentage'+discount_id).value == '1') {
+		document.getElementById('discount_percentage'+discount_id).value = '0';
+		document.getElementById('disc_'+discount_id).innerHTML = '<strong>&euro;</strong>';
+	} else {
+		document.getElementById('discount_percentage'+discount_id).value = '1';
+		document.getElementById('disc_'+discount_id).innerHTML = '<strong>%</strong>';
+	}
+}
+</script>
+
+<form action="modifyPeriod.jsp" method="post" name="modifyPeriod" id="modifyPeriod">
+<table>
+	<tr>
+		<td><input type="text" name="short_stay_suplement" id="short_stay_suplement" size="2" value="3"></td>
+		<td align="right">
+		<a href="#" onClick="changeSSpercentage()">
+		<spam name="ss" id="ss"><strong>%</strong></spam></a>
+		<input type="hidden" name="short_stay_percentage" id="short_stay_percentage" value="1">
+		
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+

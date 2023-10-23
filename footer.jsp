@@ -1,0 +1,1 @@
+<img src="images/line.gif" alt="" width="980" height="3" border="0">
